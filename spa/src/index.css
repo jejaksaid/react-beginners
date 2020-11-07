@@ -1,8 +1,21 @@
 /* VARIABLE CSS */
 :root {
+  --header-height: ;
+  --nav-width: ;
+
+  /* FONT WEIGHT */
+  --font-medium: 500;
+  --font-semi-bold: 600;
+  --font-bold: 700;
+
+
   /* COLORS */
   --first-color: #FFCC00;
-
+  --first-color-dark: ;
+  --first-color-darken: ;
+  --text-color: ;
+  --first-color-light: ;
+  --first-color-lighten: ;
 
   /* FONT AND TYPOGHRAPHY */
   --body-font: 'Poppins', sans-serif;
@@ -12,6 +25,16 @@
   --normal-font-size: .938rem;
   --small-font-size: .813rem;
   --smaller-font-size: .75rem;
+
+  /* MARGENES */
+  --mb-1: .5rem;
+  --mb-2: 1rem;
+  --mb-3: 1.5rem;
+  --mb-4: 2rem;
+  --mb-5: 2.5rem;
+
+  /* Z-INDEX */
+  --z-fixed: 100;
 }
 
 
