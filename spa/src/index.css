@@ -1,3 +1,6 @@
+/* GOOGLE FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
 /* VARIABLE CSS */
 :root {
   --header-height: ;
@@ -10,12 +13,12 @@
 
 
   /* COLORS */
-  --first-color: #FFCC00;
-  --first-color-dark: ;
+  --first-color: #f1f1f1;
+  --first-color-dark: #4CAF50;
   --first-color-darken: ;
   --text-color: ;
-  --first-color-light: ;
-  --first-color-lighten: ;
+  --first-color-light: #FFF;
+  --first-color-lighten: rgb(87, 134, 97);
 
   /* FONT AND TYPOGHRAPHY */
   --body-font: 'Poppins', sans-serif;
@@ -31,14 +34,58 @@
   --mb-2: 1rem;
   --mb-3: 1.5rem;
   --mb-4: 2rem;
-  --mb-5: 2.5rem;
+  --mb-5: 10rem;
 
   /* Z-INDEX */
   --z-fixed: 100;
 }
 
 
-
+/* BASE */
 body {
-  background-color: #FFCC00;
+  background-color: var(--first-color);
+  padding: 20px;
+  margin: 0;
+}
+
+h1, h2, p, ul, li {
+  font-family: var(--body-font);
+}
+
+ul.header li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+}
+
+ul.header {
+  background-color: var(--first-color-dark);
+  padding: 0;
+}
+
+ul.header li a {
+  color: var(--first-color-light);
+  font-weight: var(--font-bold);
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+}
+
+/* CLASS CSS */
+.content {
+  background-color: var(--first-color-light);
+  padding: 20px;
+}
+
+.content h2 {
+  padding: 0;
+  margin: 0;
+}
+
+.content li {
+  margin-bottom: var(--mb-5);
+}
+
+.active {
+  background-color: var(--first-color-lighten);
 }
