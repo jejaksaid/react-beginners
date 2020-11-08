@@ -16,23 +16,15 @@ function Menu() {
       <nav onClick={closeMenu}>
         <NavLink exact to="/">
           <HomeSVG />
-          <span>Home</span>
+          <span>Beranda</span>
         </NavLink>
         <NavLink to="dashboard">
-          <DashboardSVG />
-          <span>About</span>
+          <AboutSVG />
+          <span>Tentang</span>
         </NavLink>
         <NavLink to="gallery">
           <GallerySVG />
-          <span>Gallery</span>
-        </NavLink>
-        <NavLink to="contact">
-            <ContactSV />
-            <span>Contact</span>
-        </NavLink>
-        <NavLink to="gallery">
-          <GallerySVG />
-          <span>Gallery</span>
+          <span>Galeri</span>
         </NavLink>
       </nav>
       
