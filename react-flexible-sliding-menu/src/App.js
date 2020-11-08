@@ -9,15 +9,15 @@ function App() {
       <h1>App: React Router</h1>
       <p>This app uses react-router for it's navigation.</p>
 
-      <Route exact path ="/" component={() => <h2>Home Component</h2>} />
+      <Route exact path="/" component={() => <h2>Home Component</h2>} />
       <Route path="/dashboard" component={() => <h2>Dashboard Component</h2>} />
       <Route path="/gallery" component={() => <h2>Gallery Component</h2>} />
 
-      <button onClic={toggleMenu} className="primary-button">
+      <button onClick={toggleMenu} className="primary-button">
         Toggle Menu
       </button>
     </div>
-  )
+  );
 }
 
 export default App;
