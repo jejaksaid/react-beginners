@@ -20,13 +20,22 @@ function Menu() {
         </NavLink>
         <NavLink to="dashboard">
           <DashboardSVG />
-          <span>Dashboard</span>
+          <span>About</span>
+        </NavLink>
+        <NavLink to="gallery">
+          <GallerySVG />
+          <span>Gallery</span>
+        </NavLink>
+        <NavLink to="contact">
+            <ContactSV />
+            <span>Contact</span>
         </NavLink>
         <NavLink to="gallery">
           <GallerySVG />
           <span>Gallery</span>
         </NavLink>
       </nav>
+      
 
       <button onClick={closeMenu}>
         <svg

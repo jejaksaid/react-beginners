@@ -10,11 +10,12 @@ function App() {
       <p>This app uses react-router for it's navigation.</p>
 
       <Route exact path="/" component={() => <h2>Home Component</h2>} />
-      <Route path="/dashboard" component={() => <h2>Dashboard Component</h2>} />
+      <Route path="/about" component={() => <h2>About Component</h2>} />
       <Route path="/gallery" component={() => <h2>Gallery Component</h2>} />
+      <Route path="/contact" component={() => <h2>Contact Component</h2>}/>
 
       <button onClick={toggleMenu} className="primary-button">
-        Toggle Menu
+        Said Menu
       </button>
     </div>
   );
