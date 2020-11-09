@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { NavLink } from "react-router-dom";
 import { MenuContext } from "react-flexible-sliding-menu";
-import { HomeSVG, DashboardSVG, GallerySVG } from "./svgs";
+import { HomeSVG, AboutSVG, GallerySVG, ContactSVG } from "./svgs";
 
 function Menu() {
   const { closeMenu } = useContext(MenuContext);
@@ -16,15 +16,19 @@ function Menu() {
       <nav onClick={closeMenu}>
         <NavLink exact to="/">
           <HomeSVG />
-          <span>Beranda</span>
+          <span>Home</span>
         </NavLink>
-        <NavLink to="dashboard">
-          <DashboardSVG />
-          <span>Tentang</span>
+        <NavLink to="about">
+          <AboutSVG />
+          <span>About</span>
         </NavLink>
         <NavLink to="gallery">
           <GallerySVG />
-          <span>Galeri</span>
+          <span>Gallery</span>
+        </NavLink>
+        <NavLink to="contact">
+          <ContactSVG />
+          <span>Contact</span>
         </NavLink>
       </nav>
       
