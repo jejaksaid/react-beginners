@@ -4,7 +4,14 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <h2>HELLO</h2>
+        <h2 class="home__title">Saidramadhan</h2>
+        <span class="home__proffesion">Frontend Developer</span>
+
+        <div>
+          <a href="#" class="home__social-link"><i class="bx bxl-github" ></i>  </a>
+          <br>
+          </br><a href="#" class="home__social-link"><i class="bx bxl-linkedin"></i></a>
+        </div>
         <p>Cras facilisis urna ornare ex volutpat, et
         convallis erat elementum. Ut aliquam, ipsum vitae
         gravida suscipit, metus dui bibendum est, eget rhoncus nibh
