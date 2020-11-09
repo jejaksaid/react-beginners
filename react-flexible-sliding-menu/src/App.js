@@ -9,9 +9,7 @@ function App() {
       <h1>App: React Router</h1>
       <p>This app uses react-router for it's navigation.</p>
 
-      <Route exact path="/" component={() => <h2>Beranda Component</h2>
-        
-      } />
+      <Route exact path="/" component={() => <h2>Beranda Component</h2>} />
       <Route path="/dashboard" component={() => <h2>Tentang Component</h2>} />
       <Route path="/gallery" component={() => <h2>Galeri Component</h2>} />
 

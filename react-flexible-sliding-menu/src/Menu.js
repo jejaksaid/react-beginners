@@ -19,7 +19,7 @@ function Menu() {
           <span>Beranda</span>
         </NavLink>
         <NavLink to="dashboard">
-          <AboutSVG />
+          <DashboardSVG />
           <span>Tentang</span>
         </NavLink>
         <NavLink to="gallery">
