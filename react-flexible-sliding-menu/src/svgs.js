@@ -1,6 +1,6 @@
 import React from "react";
 
-export const DashboardSVG = () => (
+export const AboutSVG = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="24"

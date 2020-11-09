@@ -12,7 +12,7 @@ function App() {
       <Route exact path="/" component={() => <h2>Home Component</h2>} />
       <Route path="/about" component={() => <h2>About Component</h2>} />
       <Route path="/gallery" component={() => <h2>Gallery Component</h2>} />
-      <Route path="/contact" component={() => <h2>Contact</h2>} />
+      <Route path="/contact" component={() => <h2>Contact Component</h2>} />
 
       <button onClick={toggleMenu} className="primary-button">
         Said Menu
